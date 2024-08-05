@@ -1,0 +1,185 @@
+{
+    "transactions": [
+      {
+        "id": 1,
+        "description": "Grocery Store",
+        "amount": -75.50,
+        "category": "Food"
+      },
+      {
+        "id": 2,
+        "description": "Monthly Salary",
+        "amount": 3000.00,
+        "category": "Income"
+      },
+      {
+        "id": 3,
+        "description": "Electric Bill",
+        "amount": -120.00,
+        "category": "Utilities"
+      },
+      {
+        "id": 4,
+        "description": "Freelance Project",
+        "amount": 500.00,
+        "category": "Income"
+      },
+      {
+        "id": 5,
+        "description": "Coffee Shop",
+        "amount": -15.75,
+        "category": "Food"
+      },
+      {
+        "id": 6,
+        "description": "Gym Membership",
+        "amount": -45.00,
+        "category": "Health"
+      },
+      {
+        "id": 7,
+        "description": "Online Course",
+        "amount": -200.00,
+        "category": "Education"
+      },
+      {
+        "id": 8,
+        "description": "Rent",
+        "amount": -1200.00,
+        "category": "Housing"
+      },
+      {
+        "id": 9,
+        "description": "Restaurant",
+        "amount": -90.25,
+        "category": "Food"
+      },
+      {
+        "id": 10,
+        "description": "Book Sale",
+        "amount": 30.00,
+        "category": "Income"
+      },
+      {
+        "id": 11,
+        "description": "Movie Tickets",
+        "amount": -25.50,
+        "category": "Entertainment"
+      },
+      {
+        "id": 12,
+        "description": "Transportation Pass",
+        "amount": -70.00,
+        "category": "Transportation"
+      },
+      {
+        "id": 13,
+        "description": "Streaming Service",
+        "amount": -12.99,
+        "category": "Entertainment"
+      },
+      {
+        "id": 14,
+        "description": "Stock Dividend",
+        "amount": 150.00,
+        "category": "Income"
+      },
+      {
+        "id": 15,
+        "description": "Medical Appointment",
+        "amount": -100.00,
+        "category": "Health"
+      },
+      {
+        "id": 16,
+        "description": "Shopping",
+        "amount": -200.00,
+        "category": "Miscellaneous"
+      },
+      {
+        "id": 17,
+        "description": "Interest Income",
+        "amount": 25.00,
+        "category": "Income"
+      },
+      {
+        "id": 18,
+        "description": "Phone Bill",
+        "amount": -50.00,
+        "category": "Utilities"
+      },
+      {
+        "id": 19,
+        "description": "Pet Care",
+        "amount": -85.00,
+        "category": "Pets"
+      },
+      {
+        "id": 20,
+        "description": "Donation",
+        "amount": -100.00,
+        "category": "Charity"
+      },
+      {
+        "id": 21,
+        "description": "Insurance Premium",
+        "amount": -200.00,
+        "category": "Insurance"
+      },
+      {
+        "id": 22,
+        "description": "Web Hosting",
+        "amount": -150.00,
+        "category": "Miscellaneous"
+      },
+      {
+        "id": 23,
+        "description": "Book Purchase",
+        "amount": -25.00,
+        "category": "Education"
+      },
+      {
+        "id": 24,
+        "description": "Concert Tickets",
+        "amount": -120.00,
+        "category": "Entertainment"
+      },
+      {
+        "id": 25,
+        "description": "Consulting Services",
+        "amount": 300.00,
+        "category": "Income"
+      },
+      {
+        "id": 26,
+        "description": "Gift",
+        "amount": -50.00,
+        "category": "Miscellaneous"
+      },
+      {
+        "id": 27,
+        "description": "Car Maintenance",
+        "amount": -180.00,
+        "category": "Transportation"
+      },
+      {
+        "id": 28,
+        "description": "Subscription Box",
+        "amount": -35.00,
+        "category": "Entertainment"
+      },
+      {
+        "id": 29,
+        "description": "Charity Run",
+        "amount": -45.00,
+        "category": "Charity"
+      },
+      {
+        "id": 30,
+        "description": "Stock Purchase",
+        "amount": -500.00,
+        "category": "Investments"
+      }
+    ]
+  }
+  

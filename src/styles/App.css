@@ -1,0 +1,22 @@
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+table {
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+th {
+  background-color: #f4f4f4;
+}
+input[type="text"], input[type="number"] {
+  margin: 5px;
+}
+button {
+  margin: 5px;
+  padding: 5px 10px;
+}
