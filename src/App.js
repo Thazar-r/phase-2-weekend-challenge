@@ -11,7 +11,8 @@ const App = () => {
   const [newTransaction, setNewTransaction] = useState({
     description: '',
     amount: '',
-    category: ''
+    category: '',
+    date: ''
   });
 
   useEffect(() => {
@@ -25,6 +26,12 @@ const App = () => {
   const addTransaction = (transaction) => {
     // Add transaction to the local state
     setTransactions([...transactions, transaction]);
+  };
+
+  const deleteTransaction = (index) => {
+    // Remove transaction from the local state
+    const updatedTransactions = transactions.filter((_, i) => i !== index);
+    setTransactions(updatedTransactions);
   };
 
   const handleSearch = (term) => {
@@ -44,7 +51,10 @@ const App = () => {
         newTransaction={newTransaction} 
         setNewTransaction={setNewTransaction} 
       />
-      <TransactionTable transactions={filteredTransactions} />
+      <TransactionTable 
+        transactions={filteredTransactions} 
+        onDelete={deleteTransaction} 
+      />
     </div>
   );
 };

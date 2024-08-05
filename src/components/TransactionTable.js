@@ -1,6 +1,6 @@
 import React from 'react';
 
-function TransactionTable({ transactions }) {
+const TransactionTable = ({ transactions, onDelete }) => {
   return (
     <table>
       <thead>
@@ -8,19 +8,25 @@ function TransactionTable({ transactions }) {
           <th>Description</th>
           <th>Amount</th>
           <th>Category</th>
+          <th>Date</th>
+          <th>Actions</th>
         </tr>
       </thead>
       <tbody>
-        {transactions.map((transaction) => (
-          <tr key={transaction.id}>
+        {transactions.map((transaction, index) => (
+          <tr key={index}>
             <td>{transaction.description}</td>
             <td>{transaction.amount}</td>
             <td>{transaction.category}</td>
+            <td>{transaction.date}</td>
+            <td>
+              <button onClick={() => onDelete(index)}>Delete</button>
+            </td>
           </tr>
         ))}
       </tbody>
     </table>
   );
-}
+};
 
 export default TransactionTable;
