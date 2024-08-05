@@ -54,12 +54,10 @@ This command will bundle and minify the code into the dist directory.
 Adding New Features
 Create a new branch for your feature:
 
-bash
 Copy code
 git checkout -b feature/your-feature-name
 Implement your changes and commit them:
 
-bash
 Copy code
 git add .
 git commit -m "Add feature: your feature description"
